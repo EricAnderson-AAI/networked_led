@@ -52,11 +52,11 @@ You can connect to the Raspberry Pi node with the following command:
 
 ## Project Dependencies
 
-  * ![nerves_firmware_http](https://github.com/ghitchens/nerves_firmware_http)
-  * ![nerves_network](https://github.com/nerves-project/nerves_network)
-  * ![elixir_ale](https://github.com/fhunleth/elixir_ale)
-  * ![logger_multicast_backend](https://github.com/ghitchens/logger_multicast_backend)
-  * ![poison](https://github.com/devinus/poison)
+  * [nerves_firmware_http](https://github.com/ghitchens/nerves_firmware_http)
+  * [nerves_network](https://github.com/nerves-project/nerves_network)
+  * [elixir_ale](https://github.com/fhunleth/elixir_ale)
+  * [logger_multicast_backend](https://github.com/ghitchens/logger_multicast_backend)
+  * [poison](https://github.com/devinus/poison)
 
 ## Learn more
 
