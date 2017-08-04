@@ -1,0 +1,25 @@
+## Add custom options here
+
+## Distributed Erlang Options
+##  The cookie needs to be configured prior to vm boot for
+##  for read only filesystem.
+
+## Sets the node name & IP
+# -name networked_light@0.0.0.0
+
+## Sets the node cookie
+#-setcookie 0aUVD0ZOEPLUb5GhkoNtWXVhYvien0BgTr0r01HpPqaiXznslzsMy3IAU82+7kq7
+-setcookie jeeplife
+
+## Use Ctrl-C to interrupt the current shell rather than invoking the emulator's
+## break handler and possibly exiting the VM.
++Bc
+
+## Start the Elixir shell
+
+-noshell
+-user Elixir.IEx.CLI
+
+## Options added after -extra are interpreted as plain arguments and
+## can be retrieved using :init.get_plain_arguments().
+-extra --no-halt
